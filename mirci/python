@@ -1,0 +1,48 @@
+5059.84
+48
+242.556
+5059.29
+50
+242.191
+5067.38
+48
+241.841
+5070.09
+46
+241.481
+5115.41
+46
+239.629
+5123.6
+48
+239.562
+5092.02
+43
+239.454
+5133.24
+47
+239.001
+5115.31
+46
+238.729
+5122.24
+42
+237.332
+5151.03
+47
+237.332
+5141.51
+45
+236.642név = ["Leclerc", "Verstappen", "Sainz", "Perez", "Norris", "Magnussen", "Russel", "Hamilton", "Ocon", "Gasly", "Hulkenberg", "Alonso", "Zhou", "Bottas", "Albon", "Stroll", "Ricciardo", "Latifi"]
+ido = []
+kor = []
+seb = []
+
+for i in range(0, len(név),1):
+    ido.append(float(input()))
+    kor.append(int(input()))
+    seb.append(float(input()))
+
+
+altagkor = sum(kor)//len(kor)
+print(atlagkor)
